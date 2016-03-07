@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: da8c4783817fdd34c818a62cd7a46d49
-timeCreated: 1456867414
+guid: 4fd855dad432d0347a3c84f1af1427eb
+timeCreated: 1457106739
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: button_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,7 +28,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 64
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -43,13 +44,29 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 4, y: 7, z: 11, w: 5}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: button_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 8
+        width: 836
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -418, y: 35.5}
+        - {x: -418, y: -34.5}
+        - {x: -417, y: -35.5}
+        - {x: 418, y: -35.5}
+        - {x: 418, y: 35.5}
     outline: []
   spritePackingTag: 
   userData: 
